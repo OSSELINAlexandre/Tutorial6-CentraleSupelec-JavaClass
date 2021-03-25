@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_2sMNAIyPEeuQqOSOZ8cmKg" name="Exercise1">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_2t-VsIyPEeuQqOSOZ8cmKg">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_9I5xwIyPEeuQqOSOZ8cmKg" name="Shapes">
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_TfiAEIyREeuQqOSOZ8cmKg" name="getArea"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_ZX2eUIyREeuQqOSOZ8cmKg" name="getPerimeter"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_B7vOoIyQEeuQqOSOZ8cmKg" name="Circle">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_4eipgIyREeuci8E9pSW4Sw" name="center" type="_QO9coIyQEeuQqOSOZ8cmKg"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_7jwuAIyREeuci8E9pSW4Sw" name="radius">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EDouble"/>
+    </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_WNzWYI1QEeuHFvOwbsu72g" name="getters&amp;setters"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_EH8AcIyQEeuQqOSOZ8cmKg" name="Quadrilateral">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_ML6MAIySEeuci8E9pSW4Sw" name="c4" type="_QO9coIyQEeuQqOSOZ8cmKg"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_Mbe5EIySEeuci8E9pSW4Sw" name="sideA">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EDouble"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_MqJnMIySEeuci8E9pSW4Sw" name="sideB">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EDouble"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_M3kYIIySEeuci8E9pSW4Sw" name="sideC">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EDouble"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_NIX0QIySEeuci8E9pSW4Sw" name="sideD">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EDouble"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_LZoagIySEeuci8E9pSW4Sw" name="c1" type="_QO9coIyQEeuQqOSOZ8cmKg"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_LrF98IySEeuci8E9pSW4Sw" name="c2" type="_QO9coIyQEeuQqOSOZ8cmKg"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_L70hkIySEeuci8E9pSW4Sw" name="c3" type="_QO9coIyQEeuQqOSOZ8cmKg"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_Y8qJUI1QEeuHFvOwbsu72g" name="getters&amp;setters"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Gs_XIIyQEeuQqOSOZ8cmKg" name="Triangle">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_5lWWBoyQEeuQqOSOZ8cmKg" name="point" type="_QO9coIyQEeuQqOSOZ8cmKg" aggregation="shared" association="_5lWWAIyQEeuQqOSOZ8cmKg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_GGqTsI1QEeuHFvOwbsu72g" value="3"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_GGsv8I1QEeuHFvOwbsu72g" value="3"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_wQje8IySEeuci8E9pSW4Sw" name="c1" type="_QO9coIyQEeuQqOSOZ8cmKg"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_wko4kIySEeuci8E9pSW4Sw" name="c2" type="_QO9coIyQEeuQqOSOZ8cmKg"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_w28wkIySEeuci8E9pSW4Sw" name="c3" type="_QO9coIyQEeuQqOSOZ8cmKg"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_xJvwwIySEeuci8E9pSW4Sw" name="sideA">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EDouble"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_xabREIySEeuci8E9pSW4Sw" name="sideB">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EDouble"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_xr0jEIySEeuci8E9pSW4Sw" name="sideC">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EDouble"/>
+    </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_ZxUgcI1QEeuHFvOwbsu72g" name="getters&amp;setters"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Realization" xmi:id="_L0n_UIyQEeuQqOSOZ8cmKg" client="_B7vOoIyQEeuQqOSOZ8cmKg" supplier="_9I5xwIyPEeuQqOSOZ8cmKg"/>
+  <packagedElement xmi:type="uml:Realization" xmi:id="_N0dJEIyQEeuQqOSOZ8cmKg" client="_EH8AcIyQEeuQqOSOZ8cmKg" supplier="_9I5xwIyPEeuQqOSOZ8cmKg"/>
+  <packagedElement xmi:type="uml:Realization" xmi:id="_OYg4YIyQEeuQqOSOZ8cmKg" client="_Gs_XIIyQEeuQqOSOZ8cmKg" supplier="_9I5xwIyPEeuQqOSOZ8cmKg"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_QO9coIyQEeuQqOSOZ8cmKg" name="Point">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_w7yfM4yQEeuQqOSOZ8cmKg" name="circle" type="_B7vOoIyQEeuQqOSOZ8cmKg" association="_w7yfMIyQEeuQqOSOZ8cmKg"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_5lWWA4yQEeuQqOSOZ8cmKg" name="triangle" type="_Gs_XIIyQEeuQqOSOZ8cmKg" association="_5lWWAIyQEeuQqOSOZ8cmKg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_5lWWBIyQEeuQqOSOZ8cmKg" value="3"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_5lWWBYyQEeuQqOSOZ8cmKg" value="3"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_70-2U4yQEeuQqOSOZ8cmKg" name="quadrilateral" type="_EH8AcIyQEeuQqOSOZ8cmKg" association="_70-2UIyQEeuQqOSOZ8cmKg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_70-2VIyQEeuQqOSOZ8cmKg" value="4"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_70-2VYyQEeuQqOSOZ8cmKg" value="4"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_mNFrYIyREeuci8E9pSW4Sw" name="X">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_pru8gIyREeuci8E9pSW4Sw" name="Y">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_sjqy8IyREeuci8E9pSW4Sw" name="calculatedistancefromThistoOtherPoint"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_w7yfMIyQEeuQqOSOZ8cmKg" visibility="private" memberEnd="_w7yfM4yQEeuQqOSOZ8cmKg _w78QMoyQEeuQqOSOZ8cmKg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_w7yfMYyQEeuQqOSOZ8cmKg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_w7yfMoyQEeuQqOSOZ8cmKg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_w78QMoyQEeuQqOSOZ8cmKg" name="point" type="_QO9coIyQEeuQqOSOZ8cmKg" aggregation="shared" association="_w7yfMIyQEeuQqOSOZ8cmKg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_5lWWAIyQEeuQqOSOZ8cmKg" memberEnd="_5lWWA4yQEeuQqOSOZ8cmKg _5lWWBoyQEeuQqOSOZ8cmKg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_5lWWAYyQEeuQqOSOZ8cmKg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_5lWWAoyQEeuQqOSOZ8cmKg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_70-2UIyQEeuQqOSOZ8cmKg" memberEnd="_70-2U4yQEeuQqOSOZ8cmKg _70-2VoyQEeuQqOSOZ8cmKg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_70-2UYyQEeuQqOSOZ8cmKg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_70-2UoyQEeuQqOSOZ8cmKg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_70-2VoyQEeuQqOSOZ8cmKg" name="point" type="_QO9coIyQEeuQqOSOZ8cmKg" aggregation="shared" association="_70-2UIyQEeuQqOSOZ8cmKg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_IdSM0I1QEeuHFvOwbsu72g" value="4"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_IdUpEI1QEeuHFvOwbsu72g" value="4"/>
+    </ownedEnd>
+  </packagedElement>
+</uml:Model>
