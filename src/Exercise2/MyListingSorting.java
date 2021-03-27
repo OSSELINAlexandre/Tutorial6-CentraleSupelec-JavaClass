@@ -11,8 +11,12 @@ public class MyListingSorting {
 	
 	public MyListingSorting(ArrayList<Shapes> list, BehaviorStrat b) {
 		super();
-		this.list = list;
-		behavior = b;
+		if(!list.isEmpty()) {
+			this.list = list;
+			behavior = b;
+		}else {
+			System.out.println("The given list is empty.");
+		}
 	}
 
 
