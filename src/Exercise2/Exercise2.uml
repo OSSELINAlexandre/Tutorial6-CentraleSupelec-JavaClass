@@ -89,7 +89,7 @@
   </packagedElement>
   <packagedElement xmi:type="uml:Realization" xmi:id="_aBd-EIzIEeuukZNPPMiehg" client="_riE1cIzFEeuukZNPPMiehg" supplier="_aOz94IzFEeuukZNPPMiehg"/>
   <packagedElement xmi:type="uml:Realization" xmi:id="_ahOcMIzIEeuukZNPPMiehg" client="_rH2-oIzFEeuukZNPPMiehg" supplier="_aOz94IzFEeuukZNPPMiehg"/>
-  <packagedElement xmi:type="uml:Realization" xmi:id="_a3WdMIzIEeuukZNPPMiehg" client="_pWB0oIzFEeuukZNPPMiehg" supplier="_aOz94IzFEeuukZNPPMiehg"/>
+  <packagedElement xmi:type="uml:Realization" xmi:id="_a3WdMIzIEeuukZNPPMiehg" client="_4gj6kIzEEeuukZNPPMiehg" supplier="_aOz94IzFEeuukZNPPMiehg"/>
   <packagedElement xmi:type="uml:Realization" xmi:id="_bT-HwIzIEeuukZNPPMiehg" client="_o95ogIzFEeuukZNPPMiehg" supplier="_aOz94IzFEeuukZNPPMiehg"/>
   <packagedElement xmi:type="uml:Realization" xmi:id="_ea5ccIzIEeuukZNPPMiehg" client="_KdjEkIzFEeuukZNPPMiehg" supplier="_bJp1gIzFEeuukZNPPMiehg"/>
   <packagedElement xmi:type="uml:Realization" xmi:id="_e2E8kIzIEeuukZNPPMiehg" client="_JLBFsIzFEeuukZNPPMiehg" supplier="_4gj6kIzEEeuukZNPPMiehg"/>
@@ -126,10 +126,8 @@
     <ownedEnd xmi:type="uml:Property" xmi:id="_ZyeN4ozKEeuukZNPPMiehg" name="main(clientnode)" type="_YoAYIIzFEeuukZNPPMiehg" association="_ZyYuUIzKEeuukZNPPMiehg"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_rQK-YIzLEeuukZNPPMiehg" name="MyListingSorting">
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_8HoqwIzLEeuukZNPPMiehg" name="ArrayList&lt;shapes>"/>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_9f8hgIzLEeuukZNPPMiehg" name="behavior" type="_aOz94IzFEeuukZNPPMiehg">
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_bz0IoIzMEeuukZNPPMiehg"/>
-    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_8HoqwIzLEeuukZNPPMiehg" name="ArrayList" type="_bJp1gIzFEeuukZNPPMiehg"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_9f8hgIzLEeuukZNPPMiehg" name="behavior" type="_aOz94IzFEeuukZNPPMiehg"/>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_d6YMgIzMEeuukZNPPMiehg" name="sortingTheList" visibility="public"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_2K7bwIzLEeuukZNPPMiehg" visibility="private" memberEnd="_2K7bw4zLEeuukZNPPMiehg _2K7bxozLEeuukZNPPMiehg">
